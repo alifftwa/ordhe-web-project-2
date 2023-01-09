@@ -1,37 +1,34 @@
-import React, { useState } from 'react';
-import '../Navbar/navbar.css'
+import React from 'react';
+import { FiSearch } from 'react-icons/fi'
+import { IoCartOutline } from 'react-icons/io5'
+import { CgFileDocument } from 'react-icons/cg'
+import Layout from '../../Layout';
 
-function Navbar () {
-        const [active, setActive] = useState("nav__menu");
-        const [toggleIcon, setToggleIcon] = useState("nav__toggler");
-
-            const navToggle = () => {
-                active === "nav__menu" 
-                ? setActive("nav__menu nav__active") 
-                : setActive("nav__menu");
-
-                // TogglerIcon
-                toggleIcon === "nav__toggler" ? setToggleIcon("nav__toggler toggle") : setToggleIcon ("nav__toggler");
-            };
-
-
-
+function Navbar() {
     return (
-        <nav className="nav">
-            <a href="" className="nav__brand">ORDHE</a>
-            <ul className={active}>
-                <li className="nav__item"><a href="" className="nav__link">Home</a></li>
-                <li className="nav__item"><a href="" className="nav__link">E-Order</a></li>
-                <li className="nav__item"><a href="" className="nav__link">Book Table</a></li>
-            </ul>
-            
-            <div onClick={navToggle} className={toggleIcon}>
-                <div className="line1"></div>
-                <div className="line2"></div>
-                <div className="line3"></div>
+        <Layout>
+            <div className="flex justify-between py-5">
+                <div className='flex items-center gap-10 font-bold mx-auto'>
+                    <a href="https://google.com" target={"_blank"}>Home</a>
+                    <a href="#" target={"_blank"}>E-Order</a>
+                    <a href="#" target={"_blank"}>Book Table</a>
+                </div>
+                <div className='flex items-center justify-evenly gap-7'>
+                    <div className='flex items-center border border-slate-700 rounded-full px-3 py-1'>
+                        <FiSearch />
+                        <input type="text" placeholder='Seach' className='ml-3 border-0 bg-white focus:outline-none' />
+                    </div>
+                    <a href='#' target={"_blank"} className='relative'>
+                        <IoCartOutline size={24} />
+                        <div className="w-3 h-3 rounded-full bg-green-500 absolute top-0 right-0"></div>
+                    </a>
+                    <a href="#" target={"_blank"}>
+                        <CgFileDocument size={24} />
+                    </a>
+                </div>
             </div>
-        </nav>
-    );
+        </Layout>
+    )
 };
 
 export default Navbar;
