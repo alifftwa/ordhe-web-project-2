@@ -4,7 +4,7 @@ import Layout from '../../Layout'
 export default function Variant() {
     return (
         <Layout>
-            <div className='mt-10 grid grid-cols-4 grid grid-rows-4 gap-3'>
+            <div className='mt-10 grid grid-cols-4 grid grid-rows-2 gap-3'>
                 <div className='relative h-fit pb-12 rounded-lg p-4 bg-[#FECACA]/80 w-full'>
                     <p className='absolute top-14 uppercase italic font-extrabold font-sans text-white text-lg'>cocktail</p>
                     <div style={{ backgroundImage: "url('/images/buttonMenu/Bg Menu Coctail.png')" }} className="ml-auto bg-center bg-cover h-[150px] w-[120px] bg-no-repeat"></div>
@@ -34,7 +34,7 @@ export default function Variant() {
                     <p className='absolute top-14 right-7 uppercase italic font-extrabold font-sans text-white text-lg'>food</p>
                     <div style={{ backgroundImage: "url('/images/buttonMenu/Bg Menu Food.png')" }} className="mr-auto bg-center bg-cover h-[180px] w-[220px] bg-no-repeat"></div>
                     <p className='absolute bottom-4 right-7 uppercase px-3 py-1 w-fit rounded-lg font-semibold bg-white text-sm'>variant</p>
-                    <div className='absolute top-24 right-16 uppercase italic font-extrabold font-sans text-white text-lg w-32 leading-none'>
+                    <div className='absolute top-24 right-1 uppercase italic font-extrabold font-sans text-white text-lg w-32 leading-none'>
                         makanan berat
                     </div>
                 </div>
