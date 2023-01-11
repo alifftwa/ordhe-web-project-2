@@ -3,25 +3,26 @@ import { FiSearch } from 'react-icons/fi'
 import { IoCartOutline } from 'react-icons/io5'
 import { CgFileDocument } from 'react-icons/cg'
 import Layout from '../../Layout';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
     return (
         <Layout>
             <div className="flex justify-between py-5">
                 <div className='flex items-center gap-10 font-bold mx-auto'>
-                    <a href="https://google.com" target={"_blank"}>Home</a>
-                    <a href="#" target={"_blank"}>E-Order</a>
-                    <a href="#" target={"_blank"}>Book Table</a>
+                    <Link to="/">Home</Link>
+                    <Link to="/payment-detail">E-Order</Link>
+                    <Link to="">Book Table</Link>
                 </div>
                 <div className='flex items-center justify-evenly gap-7'>
                     <div className='flex items-center border border-slate-700 rounded-full px-3 py-1'>
                         <FiSearch />
                         <input type="text" placeholder='Seach' className='ml-3 border-0 bg-white focus:outline-none' />
                     </div>
-                    <a href='#' target={"_blank"} className='relative'>
+                    <Link to='/cart' target={"_blank"} className='relative'>
                         <IoCartOutline size={24} />
-                        <div className="w-3 h-3 rounded-full bg-green-500 absolute top-0 right-0"></div>
-                    </a>
+                        <div className="w-3 h-3 rounded-full bg-green-500 absolute top-0 -right-1 opacity-80 animate-ping"></div>
+                    </Link>
                     <a href="#" target={"_blank"}>
                         <CgFileDocument size={24} />
                     </a>
