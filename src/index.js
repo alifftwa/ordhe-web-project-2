@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './pages/HomePage/App';
+import BookTable from './pages/BookTable';
 import reportWebVitals from './reportWebVitals';
 import PaymentDetail from './pages/PaymentDetails'
 import {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
   {
     path: "/cart",
     element: <Cart />,
+  },
+  {
+    path: "/book-table",
+    element: <BookTable />,
   },
 ]);
 

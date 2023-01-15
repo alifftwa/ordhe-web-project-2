@@ -115,7 +115,7 @@ export default function Menu() {
                 {/* Sandwitch Saludable */}
                 <div class="flex justify-center w-full h-full">
                     <div class="relative rounded-lg shadow-lg bg-white w-full bg-gray-50">
-                        <div className='relative w-full bg-gray-100 mt-10 pb-[70px]'>
+                        <div className='relative w-full bg-gray-50 mt-10 pb-[70px]'>
                             <div style={{ backgroundImage: "url('/images/randomMenu/Bg Menu (Semua) Sandwitch Saludable.png')" }} className="mx-auto bg-center  insert-1 bg-cover h-[100px] w-[150px] bg-no-repeat"></div>
                             <div className='absolute bottom-3   right-3 uppercase px-2 py-2 w-fit rounded-full font-semibold bg-white text-sm'>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
