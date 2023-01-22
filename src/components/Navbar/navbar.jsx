@@ -10,9 +10,9 @@ function Navbar() {
         <Layout>
             <div className="flex justify-between py-5">
                 <div className='flex items-center gap-10 font-bold mx-auto'>
-                    <Link to="/">Home</Link>
-                    <Link to="/payment-detail">E-Order</Link>
-                    <Link to="/book-table">Book Table</Link>
+                    <Link to="/book-table">Home</Link>
+                    <Link to="/">E-Order</Link>
+                    <Link to="/eorder">Book Table</Link>
                 </div>
                 <div className='flex items-center justify-evenly gap-7'>
                     <div className='flex items-center border border-slate-700 rounded-full px-3 py-1'>
@@ -23,7 +23,7 @@ function Navbar() {
                         <IoCartOutline size={24} />
                         <div className="w-3 h-3 rounded-full bg-green-500 absolute top-0 -right-1 opacity-80 animate-ping"></div>
                     </Link>
-                    <a href="#" target={"_blank"}>
+                    <a href="/payment-detail" target={""}>
                         <CgFileDocument size={24} />
                     </a>
                 </div>

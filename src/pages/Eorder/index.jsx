@@ -1,8 +1,9 @@
 import React from 'react'
 import Navbar from '../../components/Navbar/navbar'
+import Layout from '../../Layout'
 import { Link } from 'react-router-dom';
 
-export default function PaymentDetail() {
+const Eorder = () => {
     return (
 
         <main class="h-screen w-full flex flex-col justify-center items-center bg-[#1A2238]">
@@ -23,5 +24,8 @@ export default function PaymentDetail() {
                 </a>
             </button>
         </main>
+
     )
 }
+
+export default Eorder
