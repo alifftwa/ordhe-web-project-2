@@ -10,9 +10,9 @@ function Navbar() {
         <Layout>
             <div className="flex justify-between py-5">
                 <div className='flex items-center gap-10 font-bold mx-auto'>
-                    <Link to="/book-table">Home</Link>
-                    <Link to="/">E-Order</Link>
-                    <Link to="/eorder">Book Table</Link>
+                    <Link to="/">Home</Link>
+                    <Link to="/e-order">E-Order</Link>
+                    <Link to="/book-table">Book Table</Link>
                 </div>
                 <div className='flex items-center justify-evenly gap-7'>
                     <div className='flex items-center border border-slate-700 rounded-full px-3 py-1'>

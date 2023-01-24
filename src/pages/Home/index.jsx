@@ -141,6 +141,7 @@ export default function bookTable() {
                                 <div style={{ backgroundImage: "url('/images/randomMenu/Bg Menu (Semua) Mie Aceh.png')" }} className="mx-auto bg-center  bg-cover h-[140px] w-[120px] bg-no-repeat"></div>
                             </div>
                         </div>
+
                         {/* Fries */}
                         <div className='flex flex-row bg-white drop-shadow-2xl w-full h-[164px] rounded-[20px]'>
                             <div class="relative h-max w-full p-[20px] bg-white bg-transparent mx-[10px] pt-[30px] ">
@@ -162,6 +163,7 @@ export default function bookTable() {
                                 <div style={{ backgroundImage: "url('/images/randomMenu/Bg Menu (Semua) Fries.png')" }} className="mx-auto bg-center  bg-cover h-[140px] w-[120px] bg-no-repeat"></div>
                             </div>
                         </div>
+                        
                         {/* Coffe Gula Aren */}
                         <div className='flex flex-row bg-white drop-shadow-2xl w-full h-[164px] rounded-[20px]'>
                             <div class="relative h-max w-full p-[20px] bg-white bg-transparent mx-[10px] pt-[30px] ">
@@ -174,8 +176,8 @@ export default function bookTable() {
                                     <ReactStars count={5} size={24} edit color2={'#ffd700'} />
                                     <p class="text-left text-gray-900 text-[15px] font-semibold pl-2 "> (47 Penilaian) </p>
                                 </div>
-                                <h5 class="text-left text-gray-900 text-medium font-semibold pt-3">Coffee Gula Aren</h5>
-                                <p class="text-gray-400 text-base mb-2 pb-5">
+                                <h5 class="text-left text-black text-medium font-black pt-3">Coffee Gula Aren</h5>
+                                <p class="text-black font-black mb-2 pb-5">
                                     Rp29.000
                                 </p>
                             </div>

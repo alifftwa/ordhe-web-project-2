@@ -13,11 +13,11 @@ export default function Hero() {
                 </div>
                 <div className='absolute bottom-10 left-10 space-y-2 w-72 text-xs'>
                     <p className='text-white font-semibold 2xl:text-base'>Withes Brew</p>
-                    <p className='text-gray-300 text-justify 2xl:text-[13px]'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem est eaque corporis exercitationem, esse asperiores mollitia odit velit ipsa soluta.</p>
+                    <p className='text-gray-300 text-justify 2xl:text-[13px]'>halloween cocktail is so stunning. Based on a Purple Hooter, the vivid colour is dramatically beautiful, but with a dark eerie feel perfect for an easy halloween party cocktail/shot.</p>
                 </div>
                 <div className='absolute bottom-10 right-10 space-y-2 w-72 text-xs'>
                     <p className='text-white font-semibold text-end 2xl:text-base'>Withes Brew</p>
-                    <p className='text-gray-300 text-end 2xl:text-[13px]'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem est eaque corporis exercitationem, esse asperiores mollitia odit velit ipsa soluta.</p>
+                    <p className='text-gray-300 text-end 2xl:text-[13px]'>minuman tradisional asal daerah Pegunungan Andes, Perú yang terbuat dari jagung ungu (ckolli) yang dicampur dengan nanas dan kayu manis.</p>
                 </div>
             </div>
         </Layout >

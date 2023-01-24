@@ -4,7 +4,7 @@ import './index.css';
 import App from './pages/HomePage/App';
 import reportWebVitals from './reportWebVitals';
 import PaymentDetail from './pages/PaymentDetails'
-import BookTable from './pages/BookTable';
+import Home from './pages/Home';
 import EOrder from './pages/Eorder';
 
 import {
@@ -15,7 +15,7 @@ import Cart from './pages/Cart';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/e-order",
     element: <App />,
   },
   {
@@ -27,11 +27,11 @@ const router = createBrowserRouter([
     element: <Cart />,
   },
   {
-    path: "/book-table",
-    element: <BookTable />,
+    path: "/",
+    element: <Home />,
   },
   {
-    path: "/e-order",
+    path: "/book-table",
     element: <EOrder />,
   },
 
